@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Données (On évite de push 100Mo de CSV sauf si nécessaire pour le prof)
+# Pour ce projet, comme c'est du fictif léger, tu peux commenter la ligne ci-dessous si tu veux partager le CSV
+# data/
+
+# IDE
+.vscode/
+.idea/
+
+# Modèles (souvent lourds)
+# models/*.pkl
